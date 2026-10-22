@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aflah Athallah Tamam Kapukong — Mahasiswa S1 Teknik Informatika | Personal Portfolio</title>
+    <meta name="description" content="Website personal branding dan portofolio profesional Aflah Athallah Tamam Kapukong. Mahasiswa S1 Teknik Informatika Universitas Pelita Bangsa dengan keahlian administrasi digital, pengolahan data Microsoft Excel, dan pemrograman.">
+    <meta name="author" content="Aflah Athallah Tamam Kapukong">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Metadata untuk Social Sharing -->
+    <meta property="og:title" content="Aflah Athallah Tamam Kapukong — Personal Portfolio">
+    <meta property="og:description" content="Mahasiswa S1 Teknik Informatika Universitas Pelita Bangsa. Keahlian administrasi digital, pengolahan data Excel, dan fondasi IT.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="profile-aflah.jpg">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Aflah Athallah Tamam Kapukong — Personal Portfolio">
+    <meta name="twitter:description" content="Mahasiswa S1 Teknik Informatika Universitas Pelita Bangsa. Keahlian administrasi digital, pengolahan data Excel, dan fondasi IT.">
+    <meta name="twitter:image" content="profile-aflah.jpg">
+
+    <!-- Browser Theme Color -->
+    <meta name="theme-color" content="#0B1220">
+
+    <!-- Favicon SVG Data URI (Minimalist Monogram AATK) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23111C30'/><rect x='1' y='1' width='30' height='30' rx='5' fill='none' stroke='%23C5CCD6' stroke-width='1.5'/><text x='50%25' y='65%25' text-anchor='middle' font-family='monospace' font-size='11' font-weight='bold' fill='%23C5CCD6'>AATK</text></svg>">
+
+    <!-- Stylesheet Utama (Path Relatif untuk Static Hosting) -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Scroll Progress Indicator Bar -->
+    <div id="scroll-progress-bar" class="scroll-progress-bar" aria-hidden="true"></div>
+
+    <!-- Ambient Subtle Geometric Canvas Background -->
+    <canvas id="ambient-canvas" class="ambient-canvas" aria-hidden="true"></canvas>
+
+    <!-- Header & Navigasi -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <!-- Brand Monogram -->
+            <a href="#beranda" class="brand" aria-label="Kembali ke Beranda Aflah Athallah">
+                <span class="brand-monogram">AATK</span>
+                <span class="brand-text">
+                    <span class="brand-name">AFLAH ATHALLAH</span>
+                    <span class="brand-sub">S1 TEKNIK INFORMATIKA UPB</span>
+                </span>
+            </a>
+
+            <!-- Status Ketersediaan Kerja -->
+            <div class="status-indicator-pill" title="Status Ketersediaan Kerja">
+                <span class="status-dot"></span>
+                <span class="status-label">Entry-Level Ready</span>
+            </div>
+
+            <!-- Menu Navigasi Desktop -->
+            <nav class="nav-menu" id="nav-menu" aria-label="Menu Navigasi Utama">
+                <a href="#beranda" class="nav-link active">Home</a>
+                <a href="#tentang" class="nav-link">About</a>
+                <a href="#keahlian" class="nav-link">Skills</a>
+                <a href="#proyek" class="nav-link">Projects</a>
+                <a href="#dokumen" class="nav-link">Documents</a>
+                <a href="#pendidikan" class="nav-link">Education</a>
+                <a href="#target" class="nav-link">Career</a>
+                <a href="#kontak" class="nav-link nav-btn">Contact</a>
+            </nav>
+
+            <!-- Tombol Hamburger Mobile -->
+            <button class="nav-toggle" id="nav-toggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- ===================================================================
+             HERO SECTION — HALAMAN PEMBUKA
+             =================================================================== -->
+        <section id="beranda" class="hero-section" aria-label="Bagian Pembuka">
+            <div class="container hero-grid">
+                
+                <!-- Kolom Kiri: Typographic & Positioning -->
+                <div class="hero-text-content">
+                    <div class="badge-wrapper reveal-item">
+                        <span class="exclusive-badge">
+                            <svg class="badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                            </svg>
+                            UNIVERSITAS PELITA BANGSA // S1 TEKNIK INFORMATIKA
+                        </span>
+                    </div>
+
+                    <h1 class="hero-name reveal-item">
+                        AFLAH ATHALLAH<br>
+                        <span class="hero-name-sub">TAMAM KAPUKONG</span><span class="period-accent">.</span>
+                    </h1>
+
+                    <h2 class="hero-headline reveal-item">
+                        Mengintegrasikan <span class="silver-gradient-text">Administrasi Digital, Pengolahan Data Excel, & Fondasi Teknologi Informasi</span>.
+                    </h2>
+
+                    <p class="hero-summary reveal-item">
+                        Mahasiswa S1 Teknik Informatika di Universitas Pelita Bangsa (2024–sekarang) dengan pengalaman akademik dalam pemrograman, pengembangan website, database, pengujian, dokumentasi, laporan, dan presentasi. Memiliki kemauan belajar tinggi, ketelitian, kerja sama tim, problem solving, dan adaptability. Terbuka terhadap peluang kerja <em>entry-level</em> dengan jadwal yang fleksibel menyesuaikan perkuliahan.
+                    </p>
+
+                    <!-- Tombol Aksi Utama: Download/View Resume & Navigasi -->
+                    <div class="hero-actions reveal-item">
+                        <a href="resume-aflah.pdf" download="resume-aflah.pdf" class="btn btn-silver" title="Unduh file Resume Aflah (PDF)">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="btn-icon" aria-hidden="true">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            <span>Download My Resume</span>
+                        </a>
+
+                        <a href="resume-aflah.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-silver-outline" title="Buka Resume di tab browser baru">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="btn-icon" aria-hidden="true">
+                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                <circle cx="12" cy="12" r="3"/>
+                            </svg>
+                            <span>View Resume</span>
+                        </a>
+
+                        <a href="#proyek" class="btn btn-silver-outline" title="Lihat Proyek & Latihan">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="btn-icon" aria-hidden="true">
+                                <polyline points="16 18 22 12 16 6"/>
+                                <polyline points="8 6 2 12 8 18"/>
+                            </svg>
+                            <span>Proyek & Latihan</span>
+                        </a>
+
+                        <a href="#keahlian" class="btn btn-ghost" title="Eksplorasi Keterampilan">
+                            <span>Keahlian</span>
+                        </a>
+                    </div>
+
+                    <!-- Bar Informasi Kunci Faktual -->
+                    <div class="hero-meta-bar reveal-item">
+                        <div class="meta-item">
+                            <span class="meta-number">UPB Angkatan 2024</span>
+                            <span class="meta-label">S1 Teknik Informatika</span>
+                        </div>
+                        <div class="meta-divider"></div>
+                        <div class="meta-item">
+                            <span class="meta-number">Bekasi, Jawa Barat</span>
+                            <span class="meta-label">Domisili Tempat Tinggal</span>
+                        </div>
+                        <div class="meta-divider"></div>
+                        <div class="meta-item">
+                            <span class="meta-number">Entry-Level Ready</span>
+                            <span class="meta-label">Jadwal Kuliah Fleksibel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kolom Kanan: Frame Showcase Profil Arsitektural -->
+                <div class="hero-showcase reveal-item">
+                    <div class="architectural-frame">
+                        <span class="corner corner-tl"></span>
+                        <span class="corner corner-tr"></span>
+                        <span class="corner corner-bl"></span>
+                        <span class="corner corner-br"></span>
+
+                        <div class="frame-inner">
+                            <!-- Wadah Foto Profil Asli (Proporsional, Tajam & Utuh) -->
+                            <div class="profile-photo-container">
+                                <div class="photo-matting">
+                                    <img 
+                                        src="profile-aflah.jpg" 
+                                        alt="Foto profil profesional Aflah Athallah" 
+                                        class="profile-real-photo"
+                                        width="768"
+                                        height="1024"
+                                        loading="eager"
+                                        decoding="async"
+                                    />
+                                </div>
+                                <div class="photo-ambient-glow" aria-hidden="true"></div>
+                            </div>
+
+                            <div class="showcase-info">
+                                <div class="showcase-tag">DATA RESUME & CV RESMI</div>
+                                <div class="showcase-title">Aflah Athallah</div>
+                                <div class="showcase-subtitle">S1 Teknik Informatika — Univ. Pelita Bangsa</div>
+                            </div>
+
+                            <div class="showcase-specs">
+                                <div class="spec-row">
+                                    <span class="spec-name">DOMISILI</span>
+                                    <span class="spec-val">Bekasi, Jawa Barat</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-name">EMAIL RESMI</span>
+                                    <span class="spec-val">aflahtamamke2@gmail.com</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-name">TELEPON / WA</span>
+                                    <span class="spec-val">+62 812-9529-495</span>
+                                </div>
+                                <div class="spec-row">
+                                    <span class="spec-name">KETERSEDIAAN</span>
+                                    <span class="spec-val active-status">Posisi Entry-Level</span>
+                                </div>
+                            </div>
+
+                            <!-- Highlight Keahlian Praktis (Terintegrasi Rapi & Bebas Tabrakan Teks) -->
+                            <div class="showcase-highlight-badge">
+                                <div class="showcase-highlight-icon">📊</div>
+                                <div class="showcase-highlight-text">
+                                    <span class="badge-label">Keahlian Praktis</span>
+                                    <span class="badge-value">Administrasi Digital & Excel Data</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Indikator Scroll -->
+            <a href="#tentang" class="scroll-indicator" aria-label="Gulir ke bagian About Me">
+                <span class="scroll-track">
+                    <span class="scroll-thumb"></span>
+                </span>
+                <span class="scroll-text">ABOUT ME</span>
+            </a>
+        </section>
+
+        <!-- ===================================================================
+             01. ABOUT ME — PROFIL PERSONAL
+             =================================================================== -->
+        <section id="tentang" class="section" aria-labelledby="about-heading">
+            <div class="container">
+                
+                <div class="section-header reveal-item">
+                    <div class="section-eyebrow">
+                        <span class="eyebrow-index">01</span>
+                        <span class="eyebrow-separator">//</span>
+                        <span class="eyebrow-text">ABOUT ME</span>
+                    </div>
+                    <h2 class="section-title" id="about-heading">Profil Mahasiswa & Dedikasi Belajar</h2>
+                    <p class="section-subtitle">
+                        Membangun kompetensi terstruktur yang menyeimbangkan logika teknologi informasi dan keandalan administrasi perkantoran.
+                    </p>
+                </div>
+
+                <div class="about-asymmetric-grid">
+                    
+                    <!-- Kartu Narasi Utama -->
+                    <div class="narrative-card reveal-item">
+                        <div class="card-inner">
+                            <h3 class="narrative-heading">
+                                Menggabungkan ketelitian pengolahan data, wawasan teknologi informatika, dan komunikasi yang siap pakai di lingkungan kerja.
+                            </h3>
+                            <p class="narrative-p">
+                                Saya adalah mahasiswa S1 Teknik Informatika di <strong>Universitas Pelita Bangsa</strong> (2024–sekarang). Saya memiliki latar belakang pengalaman akademik dalam pemrograman, pengembangan website, database, pengujian program, dokumentasi, penyusunan laporan, dan presentasi proyek.
+                            </p>
+                            <p class="narrative-p">
+                                Selain mempelajari pemrograman dan sistem informasi, saya mengasah keterampilan dalam <strong>administrasi digital, pengolahan data spreadsheet (Microsoft Excel tingkat lanjut), Microsoft Word, PowerPoint, dan Microsoft 365</strong>. Saya memiliki kompetensi komunikasi yang ramah, kerja sama tim, ketelitian tinggi, pemecahan masalah (problem solving), manajemen waktu, dan daya adaptasi yang cepat.
+                            </p>
+                            <p class="narrative-p">
+                                Saya terbuka terhadap berbagai peluang kerja <strong>entry-level sesuai kualifikasi</strong> di bidang administrasi, operasional, customer service, data entry, pengolahan data, retail, dan penjualan, dengan jadwal kerja yang dapat diselaraskan dengan waktu perkuliahan saya.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 4 Pilar Nilai Sesuai Dokumen Resmi -->
+                    <div class="pillars-grid">
+                        
+                        <!-- Pilar 1: Fondasi Akademik -->
+                        <div class="pillar-card reveal-item">
+                            <div class="pillar-header">
+                                <span class="pillar-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                                    </svg>
+                                </span>
+                                <span class="pillar-label">LATAR BELAKANG PENDIDIKAN</span>
+                            </div>
+                            <h4 class="pillar-title">S1 Teknik Informatika UPB</h4>
+                            <p class="pillar-desc">
+                                Fokus pembelajaran meliputi logika pemrograman, web development, perancangan database, pengujian sistem, penyusunan dokumentasi teknis, laporan, dan presentasi akademik.
+                            </p>
+                        </div>
+
+                        <!-- Pilar 2: Administrasi & Data -->
+                        <div class="pillar-card reveal-item">
+                            <div class="pillar-header">
+                                <span class="pillar-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                                        <line x1="3" y1="9" x2="21" y2="9"/>
+                                        <line x1="9" y1="21" x2="9" y2="9"/>
+                                    </svg>
+                                </span>
+                                <span class="pillar-label">KEMAHIRAN PERKANTORAN</span>
+                            </div>
+                            <h4 class="pillar-title">Administrasi Digital & Excel</h4>
+                            <p class="pillar-desc">
+                                Penguasaan formula Excel (SUM, AVERAGE, IF, COUNTIF, VLOOKUP/XLOOKUP), PivotTable, Conditional Formatting, Data Validation, charts, pengolahan teks/tanggal, dan data cleaning.
+                            </p>
+                        </div>
+
+                        <!-- Pilar 3: Komunikasi & Kerja Sama -->
+                        <div class="pillar-card reveal-item">
+                            <div class="pillar-header">
+                                <span class="pillar-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="9" cy="7" r="4"/>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                    </svg>
+                                </span>
+                                <span class="pillar-label">INTERPERSONAL & ORGANISASI</span>
+                            </div>
+                            <h4 class="pillar-title">Kerja Sama Tim & Komunikasi</h4>
+                            <p class="pillar-desc">
+                                Pengalaman partisipasi dalam OSIS, Pramuka, Rohis, kepanitiaan sekolah, dan tugas proyek kelompok mendukung pengembangan komunikasi, teamwork, ketelitian, dan tanggung jawab.
+                            </p>
+                        </div>
+
+                        <!-- Pilar 4: Kesiapan Kerja -->
+                        <div class="pillar-card reveal-item">
+                            <div class="pillar-header">
+                                <span class="pillar-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <polyline points="12 6 12 12 16 14"/>
+                                    </svg>
+                                </span>
+                                <span class="pillar-label">TARGET & KETERSEDIAAN</span>
+                            </div>
+                            <h4 class="pillar-title">Ketersediaan Entry-Level</h4>
+                            <p class="pillar-desc">
+                                Terbuka untuk posisi administrasi, operasional, customer service, retail, penjualan, data entry/pengolahan data, asisten administrasi, dan peran lain sesuai kualifikasi.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===================================================================
+             02. INTERACTIVE SKILLS EXPLORER
+             =================================================================== -->
+        <section id="keahlian" class="section section-dark" aria-labelledby="skills-heading">
+            <div class="container">
+                
+                <div class="section-header reveal-item">
+                    <div class="section-eyebrow">
+                        <span class="eyebrow-index">02</span>
+                        <span class="eyebrow-separator">//</span>
+                        <span class="eyebrow-text">INTERACTIVE SKILLS EXPLORER</span>
+                    </div>
+                    <h2 class="section-title" id="skills-heading">Eksplorasi Keterampilan & Kompetensi</h2>
+                    <p class="section-subtitle">
+                        Klasifikasi kemampuan yang telah dipelajari atau digunakan dalam konteks akademik dan praktik mandiri tanpa persentase kemahiran fiktif.
+                    </p>
+
+                    <!-- Filter Kategori Keterampilan Interaktif -->
+                    <div class="skills-filter-nav" role="tablist" aria-label="Filter Kategori Keterampilan">
+                        <button class="skill-filter-btn active" role="tab" aria-selected="true" data-skill-filter="all">Semua Kategori</button>
+                        <button class="skill-filter-btn" role="tab" aria-selected="false" data-skill-filter="office">A. Office & Admin</button>
+                        <button class="skill-filter-btn" role="tab" aria-selected="false" data-skill-filter="data">B. Data Processing</button>
+                        <button class="skill-filter-btn" role="tab" aria-selected="false" data-skill-filter="dev">C. Programming & Web</button>
+                        <button class="skill-filter-btn" role="tab" aria-selected="false" data-skill-filter="db">D. Database</button>
+                        <button class="skill-filter-btn" role="tab" aria-selected="false" data-skill-filter="tools">E. Tools & Desain</button>
+                        <button class="skill-filter-btn" role="tab" aria-selected="false" data-skill-filter="soft">F. Professional Skills</button>
+                    </div>
+                </div>
+
+                <!-- Katalog Kartu Keterampilan Interaktif -->
+                <div class="skills-catalog-grid" id="skills-catalog-grid">
+                    
+                    <!-- Kategori A: Office & Administration -->
+                    <div class="interactive-skill-card reveal-item" data-skill-cat="office">
+                        <div class="skill-card-top">
+                            <span class="skill-cat-badge">KATEGORI A</span>
+                            <span class="skill-icon-indicator">📄</span>
+                        </div>
+                        <h3 class="skill-card-name">Office & Administration</h3>
+                        <p class="skill-card-summary">
+                            Penggunaan aplikasi perkantoran standar industri untuk penyusunan dokumen kerja, laporan akademik, dan slide presentasi terstruktur.
+                        </p>
+                        <div class="skill-card-tags">
+                            <span class="skill-pill">Microsoft Word</span>
+                            <span class="skill-pill">Microsoft Excel</span>
+                            <span class="skill-pill">Microsoft PowerPoint</span>
+                            <span class="skill-pill">Microsoft 365</span>
+                            <span class="skill-pill">Penyusunan Dokumen</span>
+                            <span class="skill-pill">Laporan & Presentasi</span>
+                        </div>
+                        <div class="skill-card-context">
+                            <span class="context-label">KONTEKS AKADEMIK:</span>
+                            <p>Digunakan dalam penyusunan laporan tugas kelompok, pembuatan slide presentasi kuliah, dan format dokumen resmi sekolah.</p>
+                        </div>
+                    </div>
+
+                    <!-- Kategori B: Data Processing -->
+                    <div class="interactive-skill-card reveal-item featured-skill-card" data-skill-cat="data">
+                        <div class="skill-card-top">
+                            <span class="skill-cat-badge">KATEGORI B — UNGGULAN</span>
+                            <span class="skill-icon-indicator">📊</span>
+                        </div>
+                        <h3 class="skill-card-name">Data Processing & Excel Formulas</h3>
+                        <p class="skill-card-summary">
+                            Kemampuan praktik mandiri dalam pengolahan data spreadsheet, kalkulasi otomatis, integrasi formula pencarian, dan visualisasi grafik.
+                        </p>
+                        <div class="skill-card-tags">
+                            <span class="skill-pill chip-highlight">SUM & AVERAGE</span>
+                            <span class="skill-pill chip-highlight">IF & COUNTIF</span>
+                            <span class="skill-pill chip-highlight">VLOOKUP / XLOOKUP</span>
+                            <span class="skill-pill chip-highlight">PivotTable</span>
+                            <span class="skill-pill">Conditional Formatting</span>
+                            <span class="skill-pill">Data Validation</span>
+                            <span class="skill-pill">Charts / Grafik</span>
+                            <span class="skill-pill">Pengolahan Teks & Tanggal</span>
+                            <span class="skill-pill">Data Cleaning</span>
+                        </div>
+                        <div class="skill-card-context">
+                            <span class="context-label">KONTEKS AKADEMIK & MANDIRI:</span>
+                            <p>Mempelajari teknik pembersihan data mentah, pengaturan validasi agar input tidak keliru, dan pembuatan ringkasan tabel PivotTable.</p>
+                        </div>
+                    </div>
+
+                    <!-- Kategori C: Programming & Web Development -->
+                    <div class="interactive-skill-card reveal-item" data-skill-cat="dev">
+                        <div class="skill-card-top">
+                            <span class="skill-cat-badge">KATEGORI C</span>
+                            <span class="skill-icon-indicator">💻</span>
+                        </div>
+                        <h3 class="skill-card-name">Programming & Web Development</h3>
+                        <p class="skill-card-summary">
+                            Pembelajaran struktur sintaksis bahasa pemrograman, konsep dasar frontend/backend, pemrograman prosedural, dan penanganan error.
+                        </p>
+                        <div class="skill-card-tags">
+                            <span class="skill-pill">HTML & CSS</span>
+                            <span class="skill-pill">JavaScript</span>
+                            <span class="skill-pill">PHP</span>
+                            <span class="skill-pill">Python</span>
+                            <span class="skill-pill">Java</span>
+                            <span class="skill-pill">C / C++</span>
+                            <span class="skill-pill">Website Statis & Portofolio</span>
+                            <span class="skill-pill">Dasar CRUD & Login</span>
+                        </div>
+                        <div class="skill-card-context">
+                            <span class="context-label">KONTEKS AKADEMIK:</span>
+                            <p>Dipelajari dalam mata kuliah dasar pemrograman, algoritma struktur data, latihan web statis, dan pemrograman terminal CLI.</p>
+                        </div>
+                    </div>
+
+                    <!-- Kategori D: Database -->
+                    <div class="interactive-skill-card reveal-item" data-skill-cat="db">
+                        <div class="skill-card-top">
+                            <span class="skill-cat-badge">KATEGORI D</span>
+                            <span class="skill-icon-indicator">🗄️</span>
+                        </div>
+                        <h3 class="skill-card-name">Database Management & Modeling</h3>
+                        <p class="skill-card-summary">
+                            Pemahaman dasar perancangan database relasional, normalisasi tabel data, pemodelan ERD, dan sintaks query SQL terstruktur.
+                        </p>
+                        <div class="skill-card-tags">
+                            <span class="skill-pill">SQL</span>
+                            <span class="skill-pill">MySQL</span>
+                            <span class="skill-pill">phpMyAdmin</span>
+                            <span class="skill-pill">Perancangan ERD</span>
+                            <span class="skill-pill">Desain Database</span>
+                            <span class="skill-pill">Relasi Antarentitas</span>
+                        </div>
+                        <div class="skill-card-context">
+                            <span class="context-label">KONTEKS AKADEMIK:</span>
+                            <p>Perancangan skema tabel tugas perkuliahan, relasi primary/foreign key, dan eksekusi query manipulasi data (DML/DDL).</p>
+                        </div>
+                    </div>
+
+                    <!-- Kategori E: Development & Design Tools -->
+                    <div class="interactive-skill-card reveal-item" data-skill-cat="tools">
+                        <div class="skill-card-top">
+                            <span class="skill-cat-badge">KATEGORI E</span>
+                            <span class="skill-icon-indicator">🛠️</span>
+                        </div>
+                        <h3 class="skill-card-name">Development & Design Tools</h3>
+                        <p class="skill-card-summary">
+                            Perangkat lunak editor kode, sistem kontrol versi Git/GitHub, perancangan antarmuka digital, dan pemanfaatan tools AI untuk riset tugas.
+                        </p>
+                        <div class="skill-card-tags">
+                            <span class="skill-pill">Visual Studio Code</span>
+                            <span class="skill-pill">Git</span>
+                            <span class="skill-pill">GitHub</span>
+                            <span class="skill-pill">Figma</span>
+                            <span class="skill-pill">Canva</span>
+                            <span class="skill-pill">Tools AI Produktivitas</span>
+                        </div>
+                        <div class="skill-card-context">
+                            <span class="context-label">KONTEKS AKADEMIK:</span>
+                            <p>Digunakan sehari-hari untuk mengedit skrip kode, mengelola revisi proyek, membuat aset grafis tugas, dan akselerasi riset materi.</p>
+                        </div>
+                    </div>
+
+                    <!-- Kategori F: Professional Skills -->
+                    <div class="interactive-skill-card reveal-item" data-skill-cat="soft">
+                        <div class="skill-card-top">
+                            <span class="skill-cat-badge">KATEGORI F</span>
+                            <span class="skill-icon-indicator">🤝</span>
+                        </div>
+                        <h3 class="skill-card-name">Professional & Interpersonal Skills</h3>
+                        <p class="skill-card-summary">
+                            Kompetensi kerja nonteknis yang mendukung komunikasi efektif, kerja sama kelompok yang harmonis, dan ketelitian penyelesaian tugas.
+                        </p>
+                        <div class="skill-card-tags">
+                            <span class="skill-pill">Komunikasi Interpersonal</span>
+                            <span class="skill-pill">Public Speaking</span>
+                            <span class="skill-pill">Kerja Sama Tim</span>
+                            <span class="skill-pill">Manajemen Waktu</span>
+                            <span class="skill-pill">Problem Solving</span>
+                            <span class="skill-pill">Adaptasi</span>
+                            <span class="skill-pill">Ketelitian</span>
+                            <span class="skill-pill">Penyusunan Dokumentasi & Laporan</span>
+                        </div>
+                        <div class="skill-card-context">
+                            <span class="context-label">PENGEMBANGAN DIRI:</span>
+                            <p>Diasah melalui partisipasi organisasi siswa (OSIS, Pramuka, Rohis), kepanitiaan acara sekolah, dan dinamika tugas kelompok.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===================================================================
+             03. PROJECT SHOWCASE — PENGALAMAN AKADEMIK & LATIHAN
+             =================================================================== -->
+        <section id="proyek" class="section" aria-labelledby="projects-heading">
+            <div class="container">
+                
+                <div class="section-header reveal-item">
+                    <div class="section-eyebrow">
+                        <span class="eyebrow-index">03</span>
+                        <span class="eyebrow-separator">//</span>
+                        <span class="eyebrow-text">PROJECT SHOWCASE</span>
+                    </div>
+                    <h2 class="section-title" id="projects-heading">Pengalaman Akademik & Latihan Pembelajaran</h2>
+                    <p class="section-subtitle">
+                        Catatan Transparansi: Seluruh showcase di bawah ini merupakan <strong>pengalaman penugasan akademik perkuliahan dan latihan mandiri</strong> di Universitas Pelita Bangsa, bukan pengalaman kerja profesional atau komersial.
+                    </p>
+
+                    <!-- Filter Kategori Proyek -->
+                    <div class="project-filter-tabs" role="tablist" aria-label="Filter Kategori Proyek">
+                        <button class="filter-btn active" role="tab" aria-selected="true" data-filter="all">Semua Proyek</button>
+                        <button class="filter-btn" role="tab" aria-selected="false" data-filter="programming">Programming & CLI</button>
+                        <button class="filter-btn" role="tab" aria-selected="false" data-filter="web">Web Development</button>
+                        <button class="filter-btn" role="tab" aria-selected="false" data-filter="database">Database</button>
+                        <button class="filter-btn" role="tab" aria-selected="false" data-filter="data">Data & Dokumentasi</button>
+                    </div>
+                </div>
+
+                <div class="projects-showcase-grid">
+
+                    <!-- Proyek 1: Kalkulator Terminal Python (Workspace Nyata) -->
+                    <article class="project-showcase-card reveal-item" data-category="programming" data-project-id="kalkulator">
+                        <div class="project-header-row">
+                            <div class="project-category-badge">PROGRAMMING & CLI</div>
+                            <span class="project-status-tag">Terverifikasi di Workspace</span>
+                        </div>
+
+                        <h3 class="project-showcase-title">Kalkulator Interaktif Terminal Python</h3>
+                        
+                        <div class="project-case-breakdown">
+                            <div class="case-item">
+                                <span class="case-label">TUJUAN & LOGIKA:</span>
+                                <p class="case-text">Membangun modul kalkulator interaktif berbasis command line dengan penerapan fungsi modular dan penanganan eksepsi matematis.</p>
+                            </div>
+                            <div class="case-item">
+                                <span class="case-label">PENGUJIAN & DEBUGGING:</span>
+                                <p class="case-text">Menerapkan penanganan kesalahan eksplisit untuk <code>ValueError</code> (input bukan angka) dan <code>ZeroDivisionError</code> (pencegahan pembagian dengan angka nol).</p>
+                            </div>
+                        </div>
+
+                        <div class="project-tech-badges">
+                            <span class="tech-pill">Python 3</span>
+                            <span class="tech-pill">Exception Handling</span>
+                            <span class="tech-pill">Pengujian Program</span>
+                            <span class="tech-pill">Debugging</span>
+                        </div>
+
+                        <div class="project-card-actions">
+                            <button type="button" class="btn btn-silver-sm btn-open-modal" data-modal-target="kalkulator">
+                                <span>Lihat Detail Studi Kasus</span>
+                                <svg viewBox="0 0 20 20" fill="currentColor" class="btn-arrow" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Proyek 2: Website Statis & Portofolio Personal -->
+                    <article class="project-showcase-card reveal-item" data-category="web" data-project-id="portofolio">
+                        <div class="project-header-row">
+                            <div class="project-category-badge">WEB DEVELOPMENT</div>
+                            <span class="project-status-tag">Latihan Terverifikasi</span>
+                        </div>
+
+                        <h3 class="project-showcase-title">Website Portofolio Responsif & Desain Midnight Silver</h3>
+                        
+                        <div class="project-case-breakdown">
+                            <div class="case-item">
+                                <span class="case-label">TUJUAN:</span>
+                                <p class="case-text">Merancang website portofolio pribadi modern dan responsif yang merepresentasikan CV asli dengan tata letak adaptif di desktop dan mobile.</p>
+                            </div>
+                            <div class="case-item">
+                                <span class="case-label">FITUR:</span>
+                                <p class="case-text">Struktur HTML5 semantik, CSS Grid/Flexbox dengan variabel terpusat, kanvas animasi geometris halus, dan sistem pengunduhan PDF dokumen resmi.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-tech-badges">
+                            <span class="tech-pill">HTML5 Semantik</span>
+                            <span class="tech-pill">CSS3 Modern</span>
+                            <span class="tech-pill">Vanilla JavaScript</span>
+                            <span class="tech-pill">Canvas API</span>
+                        </div>
+
+                        <div class="project-card-actions">
+                            <button type="button" class="btn btn-silver-sm btn-open-modal" data-modal-target="portofolio">
+                                <span>Lihat Detail Studi Kasus</span>
+                                <svg viewBox="0 0 20 20" fill="currentColor" class="btn-arrow" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Proyek 3: Pembelajaran CRUD & Sistem Login (Akademik) -->
+                    <article class="project-showcase-card reveal-item" data-category="web" data-project-id="crud">
+                        <div class="project-header-row">
+                            <div class="project-category-badge">WEB DEVELOPMENT AKADEMIK</div>
+                            <span class="project-status-tag">Pembelajaran Kuliah</span>
+                        </div>
+
+                        <h3 class="project-showcase-title">Pembelajaran Fitur CRUD & Sistem Autentikasi Login</h3>
+                        
+                        <div class="project-case-breakdown">
+                            <div class="case-item">
+                                <span class="case-label">LINGKUP PEMBELAJARAN:</span>
+                                <p class="case-text">Mempelajari integrasi dasar frontend dan backend, alur data dari formulir web menuju server, serta konsep sesi login pengguna.</p>
+                            </div>
+                            <div class="case-item">
+                                <span class="case-label">KONTRIBUSI AKADEMIK:</span>
+                                <p class="case-text">Latihan pembuatan operasi Create, Read, Update, dan Delete data, validasi formulir input, dan pengujian alur autentikasi sederhana.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-tech-badges">
+                            <span class="tech-pill">HTML & CSS</span>
+                            <span class="tech-pill">PHP & JavaScript</span>
+                            <span class="tech-pill">Konsep CRUD</span>
+                            <span class="tech-pill">Sistem Login</span>
+                        </div>
+
+                        <div class="project-card-actions">
+                            <button type="button" class="btn btn-silver-sm btn-open-modal" data-modal-target="crud">
+                                <span>Lihat Detail Pembelajaran</span>
+                                <svg viewBox="0 0 20 20" fill="currentColor" class="btn-arrow" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Proyek 4: Database & MySQL (Akademik) -->
+                    <article class="project-showcase-card reveal-item" data-category="database" data-project-id="database">
+                        <div class="project-header-row">
+                            <div class="project-category-badge">DATABASE & ERD MODELING</div>
+                            <span class="project-status-tag">Tugas Perkuliahan</span>
+                        </div>
+
+                        <h3 class="project-showcase-title">Desain Database, ERD & Query SQL MySQL</h3>
+                        
+                        <div class="project-case-breakdown">
+                            <div class="case-item">
+                                <span class="case-label">DESAIN BASIS DATA:</span>
+                                <p class="case-text">Mempelajari database relasional, pemodelan Entity Relationship Diagram (ERD), relasi primary-foreign key, query SQL, dan phpMyAdmin.</p>
+                            </div>
+                            <div class="case-item">
+                                <span class="case-label">ALUR PENGERJAAN:</span>
+                                <p class="case-text">Perancangan struktur tabel data sesuai kebutuhan tugas, eksekusi query data, dokumentasi skema relasi, dan presentasi hasil.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-tech-badges">
+                            <span class="tech-pill">SQL</span>
+                            <span class="tech-pill">MySQL</span>
+                            <span class="tech-pill">phpMyAdmin</span>
+                            <span class="tech-pill">ERD Modeling</span>
+                        </div>
+
+                        <div class="project-card-actions">
+                            <button type="button" class="btn btn-silver-sm btn-open-modal" data-modal-target="database">
+                                <span>Lihat Detail Pembelajaran</span>
+                                <svg viewBox="0 0 20 20" fill="currentColor" class="btn-arrow" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Proyek 5: Pengolahan Data Excel & Spreadsheet -->
+                    <article class="project-showcase-card reveal-item" data-category="data" data-project-id="excel">
+                        <div class="project-header-row">
+                            <div class="project-category-badge">DATA PROCESSING & OFFICE</div>
+                            <span class="project-status-tag">Praktik Mandiri & Tugas</span>
+                        </div>
+
+                        <h3 class="project-showcase-title">Pengolahan Data Excel & Pembersihan Data Spreadsheet</h3>
+                        
+                        <div class="project-case-breakdown">
+                            <div class="case-item">
+                                <span class="case-label">PENGOLAHAN EXCEL:</span>
+                                <p class="case-text">Praktik mandiri formula pencarian VLOOKUP/XLOOKUP, agregasi PivotTable, validasi data, formatting bersyarat, dan pembersihan data teks/tanggal.</p>
+                            </div>
+                            <div class="case-item">
+                                <span class="case-label">DOKUMENTASI KELOMPOK:</span>
+                                <p class="case-text">Menyusun materi presentasi dan laporan dokumen menggunakan Word, Excel, PowerPoint, dan Microsoft 365.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-tech-badges">
+                            <span class="tech-pill">Microsoft Excel</span>
+                            <span class="tech-pill">VLOOKUP / XLOOKUP</span>
+                            <span class="tech-pill">PivotTable</span>
+                            <span class="tech-pill">Data Cleaning</span>
+                            <span class="tech-pill">Office 365</span>
+                        </div>
+
+                        <div class="project-card-actions">
+                            <button type="button" class="btn btn-silver-sm btn-open-modal" data-modal-target="excel">
+                                <span>Lihat Detail Praktik</span>
+                                <svg viewBox="0 0 20 20" fill="currentColor" class="btn-arrow" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                    <!-- Proyek 6: Kolaborasi Tim & Dokumentasi Laporan -->
+                    <article class="project-showcase-card reveal-item" data-category="data" data-project-id="kolaborasi">
+                        <div class="project-header-row">
+                            <div class="project-category-badge">KOLABORASI & DOKUMENTASI</div>
+                            <span class="project-status-tag">Proyek Kelompok</span>
+                        </div>
+
+                        <h3 class="project-showcase-title">Pengerjaan Proyek Kelompok, Riset & Presentasi</h3>
+                        
+                        <div class="project-case-breakdown">
+                            <div class="case-item">
+                                <span class="case-label">KOLABORASI KELOMPOK:</span>
+                                <p class="case-text">Berpartisipasi aktif dalam pengerjaan proyek kelompok melalui pembagian tugas, komunikasi runut, penulisan laporan teknis, dan presentasi materi.</p>
+                            </div>
+                            <div class="case-item">
+                                <span class="case-label">SOFT SKILLS:</span>
+                                <p class="case-text">Menerapkan time management, pemecahan masalah praktis, adaptabilitas, serta ketelitian pengumpulan informasi melalui internet.</p>
+                            </div>
+                        </div>
+
+                        <div class="project-tech-badges">
+                            <span class="tech-pill">Teamwork</span>
+                            <span class="tech-pill">Penyusunan Laporan</span>
+                            <span class="tech-pill">Presentasi</span>
+                            <span class="tech-pill">Riset Informasi</span>
+                        </div>
+
+                        <div class="project-card-actions">
+                            <button type="button" class="btn btn-silver-sm btn-open-modal" data-modal-target="kolaborasi">
+                                <span>Lihat Detail Kolaborasi</span>
+                                <svg viewBox="0 0 20 20" fill="currentColor" class="btn-arrow" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===================================================================
+             04. MY PROFESSIONAL DOCUMENTS — BAGIAN KHUSUS DOKUMEN RESMI
+             =================================================================== -->
+        <section id="dokumen" class="section section-dark" aria-labelledby="documents-heading">
+            <div class="container">
+                
+                <div class="section-header reveal-item">
+                    <div class="section-eyebrow">
+                        <span class="eyebrow-index">04</span>
+                        <span class="eyebrow-separator">//</span>
+                        <span class="eyebrow-text">MY PROFESSIONAL DOCUMENTS</span>
+                    </div>
+                    <h2 class="section-title" id="documents-heading">My Professional Documents</h2>
+                    <p class="section-subtitle">
+                        Akses langsung dokumen resmi saya dalam format PDF standar. Anda dapat membuka dokumen di tab peramban baru atau mengunduhnya langsung ke perangkat Anda.
+                    </p>
+                </div>
+
+                <div class="documents-grid">
+                    
+                    <!-- Dokumen 1 — CV Aflah Athallah -->
+                    <div class="document-card reveal-item">
+                        <div class="doc-badge-row">
+                            <span class="doc-type-pill">CURRICULUM VITAE</span>
+                            <span class="doc-format-pill">PDF (29 KB)</span>
+                        </div>
+
+                        <div class="doc-icon-wrap">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="doc-icon" aria-hidden="true">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+
+                        <h3 class="doc-title">CV Aflah Athallah</h3>
+                        <h4 class="doc-subtitle">Aflah Athallah Tamam Kapukong</h4>
+
+                        <p class="doc-description">
+                            Curriculum Vitae komprehensif berisi profil profesional, riwayat pendidikan lengkap, rincian keahlian digital, pengalaman akademik & kepanitiaan, serta kompetensi kerja.
+                        </p>
+
+                        <div class="doc-meta-tags">
+                            <span>Format PDF Resmi</span>
+                            <span>Profil Lengkap</span>
+                            <span>Path Relatif: cv-aflah.pdf</span>
+                        </div>
+
+                        <div class="doc-actions-grid">
+                            <a href="cv-aflah.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-silver-outline btn-block" title="Buka CV di tab baru">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="btn-icon" aria-hidden="true">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                                <span>View CV</span>
+                            </a>
+                            <a href="cv-aflah.pdf" download="cv-aflah.pdf" class="btn btn-silver btn-block" title="Unduh file CV ke komputer">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="btn-icon" aria-hidden="true">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                                <span>Download CV</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Dokumen 2 — Resume Aflah Athallah -->
+                    <div class="document-card reveal-item">
+                        <div class="doc-badge-row">
+                            <span class="doc-type-pill">ONE-PAGE RESUME</span>
+                            <span class="doc-format-pill">PDF (29 KB)</span>
+                        </div>
+
+                        <div class="doc-icon-wrap">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="doc-icon" aria-hidden="true">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+
+                        <h3 class="doc-title">Resume Aflah Athallah</h3>
+                        <h4 class="doc-subtitle">Aflah Athallah Tamam Kapukong</h4>
+
+                        <p class="doc-description">
+                            Resume ringkas satu halaman yang merangkum profil, kekuatan utama, pendidikan, keterampilan teknis, pengalaman relevan, kompetensi kerja, dan target karier entry-level.
+                        </p>
+
+                        <div class="doc-meta-tags">
+                            <span>Format 1 Halaman</span>
+                            <span>Ringkasan Eksekutif</span>
+                            <span>Path Relatif: resume-aflah.pdf</span>
+                        </div>
+
+                        <div class="doc-actions-grid">
+                            <a href="resume-aflah.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-silver-outline btn-block" title="Buka Resume di tab baru">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="btn-icon" aria-hidden="true">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                                <span>View Resume</span>
+                            </a>
+                            <a href="resume-aflah.pdf" download="resume-aflah.pdf" class="btn btn-silver btn-block" title="Unduh file Resume ke komputer">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="btn-icon" aria-hidden="true">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7 10 12 15 17 10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                                <span>Download Resume</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===================================================================
+             05. EDUCATION & ORGANIZATIONAL TIMELINE
+             =================================================================== -->
+        <section id="pendidikan" class="section" aria-labelledby="education-heading">
+            <div class="container">
+                
+                <div class="section-header reveal-item">
+                    <div class="section-eyebrow">
+                        <span class="eyebrow-index">05</span>
+                        <span class="eyebrow-separator">//</span>
+                        <span class="eyebrow-text">EDUCATION & EXPERIENCE</span>
+                    </div>
+                    <h2 class="section-title" id="education-heading">Riwayat Pendidikan & Organisasi</h2>
+                    <p class="section-subtitle">
+                        Kronologi pendidikan formal dari jenjang dasar hingga perkuliahan S1 Teknik Informatika di Universitas Pelita Bangsa beserta keaktifan keorganisasian sekolah.
+                    </p>
+                </div>
+
+                <div class="edu-org-grid">
+                    
+                    <!-- Kolom 1: Pendidikan Formal -->
+                    <div class="timeline-column reveal-item">
+                        <h3 class="column-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="column-title-icon" aria-hidden="true">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                            </svg>
+                            Pendidikan Formal
+                        </h3>
+
+                        <div class="timeline-tree">
+                            
+                            <!-- Node 1: Universitas Pelita Bangsa -->
+                            <div class="tree-node active-node">
+                                <div class="node-marker"><span class="dot"></span><span class="line"></span></div>
+                                <div class="node-content">
+                                    <span class="node-period">2024 — SEKARANG</span>
+                                    <h4 class="node-role">S1 Teknik Informatika</h4>
+                                    <h5 class="node-institution">Universitas Pelita Bangsa</h5>
+                                    <p class="node-desc">
+                                        <strong>Fokus Pembelajaran:</strong> Pemrograman, website, database, pengujian, dokumentasi, laporan, dan presentasi.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Node 2: SMAN 1 Cikarang Pusat -->
+                            <div class="tree-node">
+                                <div class="node-marker"><span class="dot"></span><span class="line"></span></div>
+                                <div class="node-content">
+                                    <span class="node-period">SEKOLAH MENENGAH ATAS (SMA)</span>
+                                    <h4 class="node-role">Sekolah Menengah Atas</h4>
+                                    <h5 class="node-institution">SMAN 1 Cikarang Pusat</h5>
+                                    <p class="node-desc">
+                                        Pendidikan menengah atas dengan keaktifan dalam kegiatan sekolah dan kepanitiaan.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Node 3: SMPIT Al-Ichwan -->
+                            <div class="tree-node">
+                                <div class="node-marker"><span class="dot"></span><span class="line"></span></div>
+                                <div class="node-content">
+                                    <span class="node-period">SEKOLAH MENENGAH PERTAMA (SMP)</span>
+                                    <h4 class="node-role">Sekolah Menengah Pertama</h4>
+                                    <h5 class="node-institution">SMPIT Al-Ichwan</h5>
+                                    <p class="node-desc">
+                                        Pendidikan Islam terpadu yang menanamkan kedisiplinan dan dasar kepemimpinan.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Node 4: SDN 1 Sertajaya 05 -->
+                            <div class="tree-node">
+                                <div class="node-marker"><span class="dot"></span></div>
+                                <div class="node-content">
+                                    <span class="node-period">SEKOLAH DASAR (SD)</span>
+                                    <h4 class="node-role">Sekolah Dasar</h4>
+                                    <h5 class="node-institution">SDN 1 Sertajaya 05</h5>
+                                    <p class="node-desc">
+                                        Fondasi awal pendidikan dan literasi dasar.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Kolom 2: Pengalaman Organisasi -->
+                    <div class="timeline-column reveal-item">
+                        <h3 class="column-title">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="column-title-icon" aria-hidden="true">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                            Pengalaman Organisasi
+                        </h3>
+
+                        <div class="timeline-tree">
+                            
+                            <!-- Org 1: OSIS -->
+                            <div class="tree-node">
+                                <div class="node-marker"><span class="dot"></span><span class="line"></span></div>
+                                <div class="node-content">
+                                    <span class="node-period">ORGANISASI SISWA</span>
+                                    <h4 class="node-role">Partisipasi dalam OSIS</h4>
+                                    <p class="node-desc">
+                                        Mengembangkan komunikasi interpersonal, kerja sama tim, serta koordinasi agenda kegiatan sekolah.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Org 2: Pramuka -->
+                            <div class="tree-node">
+                                <div class="node-marker"><span class="dot"></span><span class="line"></span></div>
+                                <div class="node-content">
+                                    <span class="node-period">KEPRAMUKAAN</span>
+                                    <h4 class="node-role">Keanggotaan Pramuka</h4>
+                                    <p class="node-desc">
+                                        Menumbuhkan kedisiplinan, kemandirian, ketelitian, dan kepemimpinan dalam kegiatan beregu.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Org 3: Rohis -->
+                            <div class="tree-node">
+                                <div class="node-marker"><span class="dot"></span><span class="line"></span></div>
+                                <div class="node-content">
+                                    <span class="node-period">ORGANISASI KEROHANIAN</span>
+                                    <h4 class="node-role">Keanggotaan Rohis</h4>
+                                    <p class="node-desc">
+                                        Mendukung pembentukan karakter moral, kepedulian sosial, dan koordinasi acara keagamaan sekolah.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Org 4: Kepanitiaan Sekolah -->
+                            <div class="tree-node">
+                                <div class="node-marker"><span class="dot"></span></div>
+                                <div class="node-content">
+                                    <span class="node-period">KEPANITIAAN SEKOLAH</span>
+                                    <h4 class="node-role">Kepanitiaan Acara & Perlombaan</h4>
+                                    <p class="node-desc">
+                                        Partisipasi dalam kegiatan kepanitiaan acara dan perlombaan sekolah, mendukung pengembangan komunikasi, kerja sama tim, ketelitian, dan tanggung jawab.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===================================================================
+             06. CAREER INTERESTS & TARGET KARIER
+             =================================================================== -->
+        <section id="target" class="section section-dark" aria-labelledby="career-heading">
+            <div class="container">
+                
+                <div class="section-header reveal-item">
+                    <div class="section-eyebrow">
+                        <span class="eyebrow-index">06</span>
+                        <span class="eyebrow-separator">//</span>
+                        <span class="eyebrow-text">CAREER INTERESTS</span>
+                    </div>
+                    <h2 class="section-title" id="career-heading">Minat Karier & Ketersediaan Kerja</h2>
+                    <p class="section-subtitle">
+                        Keluasan minat kerja pada posisi entry-level dengan jam kerja yang dapat diselaraskan dengan perkuliahan.
+                    </p>
+                </div>
+
+                <div class="career-grid">
+                    
+                    <!-- Kartu Posisi -->
+                    <div class="career-card reveal-item">
+                        <div class="career-card-header">
+                            <span class="career-tag">POSISI ENTRY-LEVEL YANG DIMINATI</span>
+                            <h3 class="career-card-title">Keluasan Minat Kerja Profesional</h3>
+                        </div>
+                        <p class="career-card-desc">
+                            Terbuka untuk berbagai posisi entry-level yang membutuhkan ketelitian administrasi, keterampilan komputer, dan komunikasi:
+                        </p>
+
+                        <div class="target-roles-grid">
+                            <div class="role-pill"><span class="role-bullet"></span><span>Administrasi & Staff Kantor</span></div>
+                            <div class="role-pill"><span class="role-bullet"></span><span>Operasional</span></div>
+                            <div class="role-pill"><span class="role-bullet"></span><span>Customer Service & Receptionist</span></div>
+                            <div class="role-pill"><span class="role-bullet"></span><span>Data Entry / Pengolahan Data</span></div>
+                            <div class="role-pill"><span class="role-bullet"></span><span>Retail, Kasir & Pramuniaga</span></div>
+                            <div class="role-pill"><span class="role-bullet"></span><span>Penjualan (Sales)</span></div>
+                            <div class="role-pill"><span class="role-bullet"></span><span>Marketing Assistant</span></div>
+                            <div class="role-pill"><span class="role-bullet"></span><span>Staff Gudang / Inventory</span></div>
+                        </div>
+
+                        <div class="availability-callout">
+                            <div class="callout-icon">💡</div>
+                            <div class="callout-text">
+                                <strong>Ketersediaan Fleksibel:</strong> Belum memiliki pengalaman kerja formal atau magang. Terbuka terhadap berbagai posisi entry-level dengan ketersediaan kerja yang fleksibel menyesuaikan jadwal perkuliahan.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kartu Bahasa & Kesiapan Kerja -->
+                    <div class="career-card reveal-item">
+                        <div class="career-card-header">
+                            <span class="career-tag">KOMPETENSI BAHASA & INTEGRITAS</span>
+                            <h3 class="career-card-title">Kemampuan Bahasa & Komitmen Kerja</h3>
+                        </div>
+                        <p class="career-card-desc">
+                            Kecakapan komunikasi bahasa dan transparansi kualifikasi:
+                        </p>
+
+                        <div class="achieve-list">
+                            <div class="achieve-item">
+                                <div class="achieve-marker">🇮🇩</div>
+                                <div class="achieve-info">
+                                    <h4>Bahasa Indonesia — Aktif</h4>
+                                    <p>Bahasa utama untuk komunikasi lisan, tulisan, presentasi, dan penulisan dokumen resmi.</p>
+                                </div>
+                            </div>
+
+                            <div class="achieve-item">
+                                <div class="achieve-marker">🇬🇧</div>
+                                <div class="achieve-info">
+                                    <h4>Bahasa Inggris — Tingkat Menengah</h4>
+                                    <p>Tingkat menengah (*intermediate*) berdasarkan penilaian mandiri untuk membaca literatur teknis dan komunikasi dasar.</p>
+                                </div>
+                            </div>
+
+                            <div class="achieve-item">
+                                <div class="achieve-marker">✓</div>
+                                <div class="achieve-info">
+                                    <h4>Sikap Kerja & Komitmen</h4>
+                                    <p>Memiliki kemauan belajar yang tinggi, ketelitian, kemampuan mengikuti arahan, dan komitmen untuk menyelesaikan setiap tugas secara tuntas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===================================================================
+             07. CONTACT SECTION
+             =================================================================== -->
+        <section id="kontak" class="section" aria-labelledby="contact-heading">
+            <div class="container">
+                
+                <div class="section-header reveal-item">
+                    <div class="section-eyebrow">
+                        <span class="eyebrow-index">07</span>
+                        <span class="eyebrow-separator">//</span>
+                        <span class="eyebrow-text">CONTACT</span>
+                    </div>
+                    <h2 class="section-title" id="contact-heading">Mari Terhubung dan Berdiskusi</h2>
+                    <p class="section-subtitle">
+                        Hubungi saya melalui email resmi, WhatsApp, atau gunakan tombol salin email untuk penawaran kerja sama dan peluang entry-level.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    
+                    <!-- Kanal Kontak Langsung -->
+                    <div class="contact-channels reveal-item">
+                        <div class="channels-card">
+                            <h3 class="channels-title">Informasi Kontak Langsung</h3>
+                            <p class="channels-intro">
+                                Data kontak resmi sesuai dokumen CV dan Resume:
+                            </p>
+
+                            <div class="channel-items">
+                                
+                                <!-- Email Langsung & Tombol Copy -->
+                                <div class="channel-item email-channel-item">
+                                    <div class="channel-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                            <polyline points="22,6 12,13 2,6"/>
+                                        </svg>
+                                    </div>
+                                    <div class="channel-meta">
+                                        <span class="channel-label">EMAIL RESMI</span>
+                                        <a href="mailto:aflahtamamke2@gmail.com" class="channel-value email-link">aflahtamamke2@gmail.com</a>
+                                    </div>
+                                    <button type="button" id="btn-copy-email" class="btn-copy-action" title="Salin alamat email" aria-label="Salin alamat email ke clipboard">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="copy-svg" aria-hidden="true">
+                                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+                                        </svg>
+                                        <span class="copy-tooltip" id="copy-tooltip">Salin Email</span>
+                                    </button>
+                                </div>
+
+                                <!-- Telepon / WhatsApp -->
+                                <a href="https://wa.me/628129529495" target="_blank" rel="noopener noreferrer" class="channel-item">
+                                    <div class="channel-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="channel-meta">
+                                        <span class="channel-label">TELEPON / WHATSAPP</span>
+                                        <span class="channel-value">+62 812-9529-495</span>
+                                    </div>
+                                    <span class="channel-action" aria-hidden="true">&rarr;</span>
+                                </a>
+
+                                <!-- Domisili -->
+                                <div class="channel-item non-link">
+                                    <div class="channel-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                            <circle cx="12" cy="10" r="3"/>
+                                        </svg>
+                                    </div>
+                                    <div class="channel-meta">
+                                        <span class="channel-label">DOMISILI</span>
+                                        <span class="channel-value">Bekasi, Jawa Barat</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Tombol Aksi Dokumen di Kartu Kontak -->
+                            <div class="cv-download-box">
+                                <a href="resume-aflah.pdf" download="resume-aflah.pdf" class="btn btn-silver btn-block" title="Unduh file Resume PDF">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" class="btn-icon" aria-hidden="true">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                        <polyline points="7 10 12 15 17 10"/>
+                                        <line x1="12" y1="15" x2="12" y2="3"/>
+                                    </svg>
+                                    <span>Download My Resume (PDF)</span>
+                                </a>
+                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px;">
+                                    <a href="resume-aflah.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-silver-outline-sm" title="Buka Resume di tab baru">
+                                        <span>View Resume</span>
+                                    </a>
+                                    <a href="#dokumen" class="btn btn-silver-outline-sm" title="Lihat CV dan Resume lengkap">
+                                        <span>Katalog Dokumen</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Formulir Pesan Kontak Sederhana (Dengan Fallback Email) -->
+                    <div class="contact-form-wrapper reveal-item">
+                        <form id="contact-form" class="premium-form" novalidate>
+                            <div class="form-header">
+                                <h3 class="form-title">Kirimkan Pesan atau Peluang Kerja</h3>
+                                <p class="form-notice">
+                                    *Website statis: Formulir ini menyediakan validasi sisi peramban serta tombol langsung untuk mengirim pesan via aplikasi email Anda.
+                                </p>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-name" class="form-label">NAMA LENGKAP ATAU INSTANSI</label>
+                                <div class="input-wrapper">
+                                    <input type="text" id="contact-name" name="name" class="form-input" placeholder="Nama Anda / Nama Instansi" required autocomplete="name">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-email" class="form-label">ALAMAT EMAIL</label>
+                                <div class="input-wrapper">
+                                    <input type="email" id="contact-email" name="email" class="form-input" placeholder="nama@email.com" required autocomplete="email">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message" class="form-label">PESAN / DETAIL PELUANG</label>
+                                <div class="input-wrapper">
+                                    <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Tuliskan pesan, tawaran posisi kerja, atau perihal yang ingin didiskusikan..." required></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" id="submit-btn" class="btn btn-silver btn-submit">
+                                <span class="btn-text">Kirimkan Pesan via Email</span>
+                                <span class="btn-loading-spinner" aria-hidden="true"></span>
+                            </button>
+
+                            <div id="form-status" class="form-status-box" aria-live="polite"></div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#beranda" class="footer-logo">AFLAH ATHALLAH<span>// S1 TEKNIK INFORMATIKA UPB</span></a>
+                <p class="footer-tagline">
+                    Website Personal Branding & Portofolio Profesional — Berdasarkan CV & Resume Resmi.
+                </p>
+            </div>
+
+            <div class="footer-nav">
+                <a href="#beranda">Home</a>
+                <a href="#tentang">About</a>
+                <a href="#keahlian">Skills</a>
+                <a href="#proyek">Projects</a>
+                <a href="#dokumen">Documents</a>
+                <a href="#pendidikan">Education</a>
+                <a href="#target">Career</a>
+                <a href="#kontak">Contact</a>
+            </div>
+
+            <div class="footer-copyright">
+                <p>&copy; <span id="current-year">2026</span> Aflah Athallah Tamam Kapukong.</p>
+                <p class="footer-subtext">Mahasiswa S1 Teknik Informatika, Universitas Pelita Bangsa (Bekasi, Jawa Barat).</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Project Detail Modal -->
+    <div id="project-modal" class="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title" aria-hidden="true">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-dialog">
+            <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Tutup jendela modal">&times;</button>
+            <div class="modal-content">
+                <div class="modal-header-row">
+                    <span class="modal-category-tag" id="modal-category-tag">AKADEMIK</span>
+                    <span class="modal-status-badge" id="modal-status-badge">Terverifikasi</span>
+                </div>
+                <h3 class="modal-title" id="modal-project-title">Judul Proyek</h3>
+                <div class="modal-body-content" id="modal-body-content">
+                    <!-- Dinamis diisi via JavaScript -->
+                </div>
+                <div class="modal-footer-actions">
+                    <button type="button" class="btn btn-silver-sm" id="modal-action-btn">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Back to Top Button -->
+    <button type="button" id="back-to-top" class="back-to-top" aria-label="Kembali ke atas halaman" title="Kembali ke atas">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+
+    <!-- JavaScript Interaktif (Path Relatif untuk Static Hosting) -->
+    <script src="script.js"></script>
+</body>
+</html>

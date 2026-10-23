@@ -14,8 +14,16 @@
   <h3>Personal Branding & Portofolio Mahasiswa S1 Teknik Informatika</h3>
   <p><strong>Universitas Pelita Bangsa — Angkatan 2024 s.d. Sekarang</strong></p>
 
+  <br>
+
+  [![Website Portofolio Live](https://img.shields.io/badge/KLIK_UNTUK_BUKA_WEBSITE_LIVE-0B1220?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=152238)](https://abcdeflahhh.github.io/website-portofolio/)
+
   <p>
-    <a href="https://abcdeflahhh.github.io/website-portofolio/"><strong>🌐 Kunjungi Website Portofolio Live</strong></a> •
+    🔗 <strong>Tautan Langsung:</strong> <a href="https://abcdeflahhh.github.io/website-portofolio/"><strong>https://abcdeflahhh.github.io/website-portofolio/</strong></a>
+  </p>
+
+  <p>
+    <a href="#-pratinjau-tampilan-website">Pratinjau</a> •
     <a href="#-fitur-utama-website">Fitur Utama</a> •
     <a href="#-showcase-proyek-akademik-terperinci">Proyek Akademik</a> •
     <a href="#-katalog-keahlian-teknis">Keahlian</a> •
@@ -32,6 +40,22 @@
 Website ini adalah platform **Personal Branding & Portofolio Profesional** untuk **Aflah Athallah Tamam Kapukong**, seorang mahasiswa S1 Teknik Informatika di Universitas Pelita Bangsa. Website ini dirancang untuk menampilkan profil akademik, kompetensi teknis, penugasan perkuliahan, dan dokumen CV/Resume resmi dengan standar visual kelas atas (*Modern Luxury Midnight Blue & Silver*).
 
 Dibangun secara murni menggunakan **Vanilla Web Stack (HTML5 Semantik, CSS3 Modern, dan Vanilla JavaScript ES6+)** tanpa ketergantungan framework pihak ketiga yang berat, menghasilkan pengalaman pengguna yang sangat cepat (*ultra-fast loading*), ringan, responsif, dan aksesibel di seluruh perangkat desktop, laptop, tablet, maupun smartphone.
+
+---
+
+## 📸 Pratinjau Tampilan Website
+
+<div align="center">
+
+### 💻 Tampilan Desktop
+<img src="./preview-website.png" alt="Desktop Preview" width="850">
+
+<br/><br/>
+
+### 📱 Tampilan Mobile Responsif
+<img src="./preview-mobile.png" alt="Mobile Preview" width="320">
+
+</div>
 
 ---
 
@@ -131,6 +155,8 @@ website-portofolio/
 ├── script.js                            # Logika interaktif: canvas, filter tab, modal, clipboard, progress bar
 ├── profile-aflah.jpg                    # Foto profil profesional resmi resolusi tinggi (rasio 3:4)
 ├── profile-aflah.png                    # Salinan identik format PNG untuk kompatibilitas aset
+├── preview-website.png                  # Tangkapan layar pratinjau desktop resolusi tinggi
+├── preview-mobile.png                   # Tangkapan layar pratinjau mobile responsif
 ├── cv-aflah.pdf                         # Dokumen Curriculum Vitae resmi terverifikasi (PDF)
 ├── resume-aflah.pdf                     # Dokumen Executive One-Page Resume terverifikasi (PDF)
 ├── CV_Aflah_Athallah_Tamam_Kapukong.pdf # Berkas dokumen pendukung portofolio

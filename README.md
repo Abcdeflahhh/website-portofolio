@@ -162,3 +162,89 @@ website-portofolio/
 ├── CV_Aflah_Athallah_Tamam_Kapukong.pdf # Berkas dokumen pendukung portofolio
 ├── .gitignore                           # Pengecualian file sistem cache (Thumbs.db, .DS_Store, logs)
 └── README.md                            # Dokumentasi lengkap repositori proyek
+```
+
+---
+
+## 💻 Panduan Menjalankan Proyek Secara Lokal
+
+Jika Anda ingin menjalankan atau menguji website ini di komputer lokal:
+
+### Prasyarat:
+- Peramban web modern (Google Chrome, Microsoft Edge, Mozilla Firefox, atau Safari).
+- Opsional: Visual Studio Code dan Git.
+
+### Langkah-Langkah:
+1. **Clone Repositori:**
+   ```bash
+   git clone https://github.com/Abcdeflahhh/website-portofolio.git
+   ```
+2. **Masuk ke Folder Proyek:**
+   ```bash
+   cd website-portofolio
+   ```
+3. **Buka Website:**
+   - Cukup klik ganda pada file `index.html` di File Explorer, atau
+   - Buka folder di Visual Studio Code, klik kanan pada file `index.html`, lalu pilih **"Open with Live Server"**.
+
+---
+
+## 🌐 Panduan Publikasi ke GitHub Pages (Gratis Hosting)
+
+Website ini bersifat statis murni tanpa dependensi backend sehingga dapat langsung diaktifkan secara gratis melalui **GitHub Pages**:
+
+1. Pastikan seluruh file di dalam folder `website-portofolio` sudah terunggah ke repositori GitHub Anda (`https://github.com/Abcdeflahhh/website-portofolio`).
+2. Masuk ke halaman repositori di browser, lalu klik tab **Settings** (ikon roda gigi di menu atas).
+3. Pada bilah navigasi sebelah kiri, klik menu **Pages**.
+4. Di bagian **Build and deployment > Branch**:
+   - Pilih branch: **`main`**
+   - Pilih folder: **`/ (root)`**
+   - Klik tombol **Save**.
+5. Tunggu sekitar 1–2 menit hingga proses deployment selesai.
+6. Website portofolio Anda resmi tayang online dan dapat diakses publik melalui URL:
+   👉 **`https://abcdeflahhh.github.io/website-portofolio/`**
+
+---
+
+## ♿ Aksesibilitas & Kualitas Teknis
+
+- **Keyboard Accessible:** Seluruh navigasi, tombol, kartu, dan formulir dapat diakses penuh menggunakan tombol `Tab` dan `Enter` dengan indikator fokus `:focus-visible` yang jelas.
+- **Prefers-Reduced-Motion:** Menghormati pengaturan pengguna dengan mematikan animasi transform/kanvas secara otomatis bagi perangkat dengan fitur *reduce motion* aktif.
+- **Zero Heavy Dependencies:** Nol ketergantungan framework berat (React, Vue, Bootstrap, Tailwind, atau jQuery), memastikan waktu render instan (*First Contentful Paint < 0.5s*).
+- **Path Relatif Murni:** Seluruh aset gambar, dokumen PDF, stylesheet, dan skrip menggunakan path lokal relatif (`profile-aflah.jpg`, `resume-aflah.pdf`, dll.), mencegah error 404 saat di-hosting di subpath domain GitHub Pages.
+
+---
+
+## 📬 Kontak & Informasi Resmi
+
+Jika Anda memiliki pertanyaan seputar proyek ini, tawaran kolaborasi akademik, atau peluang kerja *entry-level*, silakan hubungi:
+
+- **Nama Lengkap:** Aflah Athallah Tamam Kapukong
+- **Status Akademik:** Mahasiswa S1 Teknik Informatika (Universitas Pelita Bangsa, 2024–Sekarang)
+- **Domisili:** Bekasi, Jawa Barat, Indonesia
+- **Email:** [aflahtamamke2@gmail.com](mailto:aflahtamamke2@gmail.com)
+- **WhatsApp:** [+62 812-9529-495](https://wa.me/628129529495)
+- **Repositori GitHub:** [github.com/Abcdeflahhh/website-portofolio](https://github.com/Abcdeflahhh/website-portofolio)
+
+---
+
+<div align="center">
+
+  [![Website](https://img.shields.io/badge/Live_Portfolio-0B1220?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=152238)](https://abcdeflahhh.github.io/website-portofolio/)
+  [![GitHub](https://img.shields.io/badge/GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abcdeflahhh)
+  [![Gmail](https://img.shields.io/badge/Direct_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aflahtamamke2@gmail.com)
+  [![WhatsApp](https://img.shields.io/badge/Chat_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/628129529495)
+  [![Campus](https://img.shields.io/badge/Universitas_Pelita_Bangsa-TI_2024-003366?style=for-the-badge&logo=academia&logoColor=white)](https://pelitabangsa.ac.id/)
+
+  <br/><br/>
+
+  <p><i>Hak Cipta © 2026 <strong>Aflah Athallah Tamam Kapukong</strong>. Seluruh hak cipta dilindungi undang-undang.</i></p>
+  <p>Dibuat dengan dedikasi tinggi & ketelitian untuk personal branding mahasiswa S1 Teknik Informatika UPB.</p>
+
+  <br/>
+
+  <a href="#-personal-branding-portfolio--aflah-athallah-tamam-kapukong">
+    <img src="https://img.shields.io/badge/Kembali_ke_Atas-▲-C5CCD6?style=flat-square&labelColor=0B1220" alt="Back to Top">
+  </a>
+
+</div>
